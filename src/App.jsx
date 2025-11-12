@@ -76,7 +76,7 @@ function App() {
     
     try {
       // Call backend API
-      const response = await fetch('http://localhost:3001/calculate', {
+      const response = await fetch('https://tgs3nycldi.execute-api.us-east-1.amazonaws.com/test', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
